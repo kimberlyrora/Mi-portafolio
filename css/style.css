@@ -609,7 +609,7 @@ footer{
 
 .footer-margin .social-footer a{
   font-size:15px;
-  color:black;
+    color: black; 
   padding: 20px;
 }
 
