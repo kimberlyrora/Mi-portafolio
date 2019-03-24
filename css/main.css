@@ -918,7 +918,7 @@ ul.external li a:hover {
 }
 
 .social-button li:nth-child(2) {
-    margin: 0 75px;
+    margin: 0 0px;
 }
 
 .social-button li a {
@@ -1335,7 +1335,7 @@ textarea.form-control {
 
 /* follow us */
     .social-button li:nth-child(2) {
-        margin: 0 25px;
+        margin: 0 0px;
     }
 
     .social-button li a {
