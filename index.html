@@ -1,494 +1,599 @@
+
 <!DOCTYPE html>
-<html class="no-js">
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
     <head>
-        <!-- Basic Page Needs
-        ================================================== -->
+    	<!-- meta character set -->
         <meta charset="utf-8">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <link rel="icon" href="favicon.ico">
-        <title>Timer Agency Template</title>
-        <meta name="description" content="">
-        <meta name="keywords" content="">
-        <meta name="author" content="">
-        <!-- Mobile Specific Metas
-        ================================================== -->
-        <meta name="format-detection" content="telephone=no">
+		<!-- Always force latest IE rendering engine or request Chrome Frame -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Blue One Page HTML Template</title>		
+		<!-- Meta Description -->
+        <meta name="description" content="Blue One Page Creative HTML5 Template">
+        <meta name="keywords" content="one page, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
+        <meta name="author" content="Muhammad Morshed">
+		
+		<!-- Mobile Specific Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- CSS
+		================================================== -->
+		
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+		
+		<!-- Fontawesome Icon font -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+		<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+		<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/slit-slider.css">
+		<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/animate.css">
+		<!-- Main Stylesheet -->
+        <link rel="stylesheet" href="css/main.css">
 
-        
-        <!-- Template CSS Files
-        ================================================== -->
-        <!-- Twitter Bootstrs CSS -->
-        <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-        <!-- Ionicons Fonts Css -->
-        <link rel="stylesheet" href="plugins/ionicons/ionicons.min.css">
-        <!-- animate css -->
-        <link rel="stylesheet" href="plugins/animate-css/animate.css">
-        <!-- Hero area slider css-->
-        <link rel="stylesheet" href="plugins/slider/slider.css">
-        <!-- owl craousel css -->
-        <link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.css">
-        <link rel="stylesheet" href="plugins/owl-carousel/owl.theme.css">
-        <!-- Fancybox -->
-        <link rel="stylesheet" href="plugins/facncybox/jquery.fancybox.css">
-        <!-- template main css file -->
-        <link rel="stylesheet" href="css/style.css">
+		<!-- Modernizer Script for old Browsers -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
+
     </head>
-    <body>
+	
+    <body id="body">
 
+		<!-- preloader -->
+		<div id="preloader">
+            <div class="loder-box">
+            	<div class="battery"></div>
+            </div>
+		</div>
+		<!-- end preloader -->
 
         <!--
-        ==================================================
-        Header Section Start
-        ================================================== -->
-        <header id="top-bar" class="navbar-fixed-top animated-header">
+        Fixed Navigation
+        ==================================== -->
+        <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
             <div class="container">
                 <div class="navbar-header">
                     <!-- responsive nav button -->
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
                     </button>
-                    <!-- /responsive nav button -->
-                    
-                    <!-- logo -->
-                    <div class="navbar-brand">
-                        <a href="index.html" >
-                            <img src="images/logo.png" alt="">
-                        </a>
-                    </div>
-                    <!-- /logo -->
+					<!-- /responsive nav button -->
+					
+					<!-- logo -->
+					<h1 class="navbar-brand">
+						<a href="#body">Blue</a>
+					</h1>
+					<!-- /logo -->
                 </div>
-                <!-- main menu -->
+
+				<!-- main nav -->
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
-                    <div class="main-menu">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li>
-                                <a href="index.html" >Home</a>
-                            </li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="service.html">Service</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <span class="caret"></span></a>
-                                <div class="dropdown-menu">
-                                    <ul>
-                                        <li><a href="404.html">404 Page</a></li>
-                                        <li><a href="gallery.html">Gallery</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <span class="caret"></span></a>
-                                <div class="dropdown-menu">
-                                    <ul>
-                                        <li><a href="blog-fullwidth.html">Blog Full</a></li>
-                                        <li><a href="blog-left-sidebar.html">Blog Left sidebar</a></li>
-                                        <li><a href="blog-right-sidebar.html">Blog Right sidebar</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
+                    <ul id="nav" class="nav navbar-nav">
+                        <li><a href="#body">Home</a></li>
+                        <li><a href="#service">Service</a></li>
+                        <li><a href="#portfolio">portfolio</a></li>
+                        <li><a href="#testimonials">Testimonial</a></li>
+                        <li><a href="#price">price</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
                 </nav>
-                <!-- /main nav -->
+				<!-- /main nav -->
+				
             </div>
         </header>
-        
+        <!--
+        End Fixed Navigation
+        ==================================== -->
+		
+		<main class="site-content" role="main">
+		
+        <!--
+        Home Slider
+        ==================================== -->
+		
+		<section id="home-slider">
+            <div id="slider" class="sl-slider-wrapper">
 
-<!--
-==================================================
-Slider Section Start
-================================================== -->
-<section id="hero-area" >
-<div class="container">
-    <div class="row">
-        <div class="col-md-12 text-center">
-            <div class="block wow fadeInUp" data-wow-delay=".3s">
-                <!-- Slider -->
-                <section class="cd-intro">
-                    <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s" >
-                    <span>HI, MY NAME IS JONATHON & I AM A</span><br>
-                    <span class="cd-words-wrapper">
-                        <b class="is-visible">DESIGNER</b>
-                        <b>DEVELOPER</b>
-                        <b>FATHER</b>
-                    </span>
-                    </h1>
-                    </section> <!-- cd-intro -->
-                    <!-- /.slider -->
-                    <h2 class="wow fadeInUp animated" data-wow-delay=".6s" >
-                        With 10 years experience, I've occupied many roles including digital design director,<br> web designer and developer. This site showcases some of my work.
-                    </h2>
-                    <a class="btn-lines dark light wow fadeInUp animated smooth-scroll btn btn-default btn-green" data-wow-delay=".9s" href="#works" data-section="#works">View Works</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section><!--/#main-slider-->
+				<div class="sl-slider">
+				
+					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
 
-<!--
-==================================================
-About Section Start
-================================================== -->
-<section id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-sm-6">
-                <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
-                    <h2>
-                    ABOUT ME
-                    </h2>
-                    <p>
-                        Hello, I’m a UI/UX Designer & Front End Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.And scrambled it to make a type specimen book. It has survived not only five centuries
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero.
-                    </p>
-                </div>
+						<div class="bg-img bg-img-1"></div>
+
+						<div class="slide-caption">
+                            <div class="caption-content">
+                                <h2 class="animated fadeInDown">BLUE Onepage HTML5 Template</h2>
+                                <span class="animated fadeInDown">Clean and Professional one page Template</span>
+                                <a href="#" class="btn btn-blue btn-effect">Join US</a>
+                            </div>
+                        </div>
+						
+					</div>
+					
+					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+					
+						<div class="bg-img bg-img-2"></div>
+						<div class="slide-caption">
+                            <div class="caption-content">
+                                <h2>BLUE Onepage HTML5 Template</h2>
+                                <span>Clean and Professional one page Template</span>
+                                <a href="#" class="btn btn-blue btn-effect">Join US</a>
+                            </div>
+                        </div>
+						
+					</div>
+					
+					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+						
+						<div class="bg-img bg-img-3"></div>
+						<div class="slide-caption">
+                            <div class="caption-content">
+                                <h2>BLUE Onepage HTML5 Template</h2>
+                                <span>Clean and Professional one page Template</span>
+                                <a href="#" class="btn btn-blue btn-effect">Join US</a>
+                            </div>
+                        </div>
+
+					</div>
+
+				</div><!-- /sl-slider -->
+
+                <!-- 
+                <nav id="nav-arrows" class="nav-arrows">
+                    <span class="nav-arrow-prev">Previous</span>
+                    <span class="nav-arrow-next">Next</span>
+                </nav>
+                -->
                 
-            </div>
-            <div class="col-md-6 col-sm-6">
-                <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
-                    <img src="images/about/about.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</section> <!-- /#about -->
-
-
-<!--
-==================================================
-Portfolio Section Start
-================================================== -->
-<section id="works" class="works">
-    <div class="container">
-        <div class="section-heading">
-            <h1 class="title wow fadeInDown" data-wow-delay=".3s">Latest Works</h1>
-            <p class="wow fadeInDown" data-wow-delay=".5s">
-                Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere <br> tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.
-            </p>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-xs-12">
-                <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
-                    <div class="img-wrapper">
-                        <img src="images/portfolio/item-1.jpg" class="img-responsive" alt="this is a title" >
-                        <div class="overlay">
-                            <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-1.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <figcaption>
-                    <h4>
-                    <a href="#">
-                        Dew Drop
+                <nav id="nav-arrows" class="nav-arrows hidden-xs hidden-sm visible-md visible-lg">
+                    <a href="javascript:;" class="sl-prev">
+                        <i class="fa fa-angle-left fa-3x"></i>
                     </a>
-                    </h4>
-                    <p>
-                        Redesigne UI Concept
-                    </p>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-sm-4 col-xs-12">
-                <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <div class="img-wrapper">
-                        <img src="images/portfolio/item-2.jpg" class="img-responsive" alt="this is a title" >
-                        <div class="overlay">
-                            <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-2.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <figcaption>
-                    <h4>
-                    <a href="#">
-                        Bottle Mockup
+                    <a href="javascript:;" class="sl-next">
+                        <i class="fa fa-angle-right fa-3x"></i>
                     </a>
-                    </h4>
-                    <p>
-                        Lorem ipsum dolor sit.
-                    </p>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-sm-4 col-xs-12">
-                <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <div class="img-wrapper">
-                        <img src="images/portfolio/item-3.jpg" class="img-responsive" alt="" >
-                        <div class="overlay">
-                            <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-3.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <figcaption>
-                    <h4>
-                    <a href="#">
-                        Table Design
-                    </a>
-                    </h4>
-                    <p>
-                        Lorem ipsum dolor sit amet.
-                    </p>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-sm-4 col-xs-12">
-                <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="600ms">
-                    <div class="img-wrapper">
-                        <img src="images/portfolio/item-4.jpg" class="img-responsive" alt="" >
-                        <div class="overlay">
-                            <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-4.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <figcaption>
-                    <h4>
-                    <a href="#">
-                        Make Up elements
-                    </a>
-                    </h4>
-                    <p>
-                        Lorem ipsum dolor.
-                    </p>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-sm-4 col-xs-12">
-                <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="900ms">
-                    <div class="img-wrapper">
-                        <img src="images/portfolio/item-5.jpg" class="img-responsive" alt="" >
-                        <div class="overlay">
-                            <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-5.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <figcaption>
-                    <h4>
-                    <a href="#">
-                        Shoping Bag Concept
-                    </a>
-                    </h4>
-                    <p>
-                        Lorem ipsum dolor.
-                    </p>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-sm-4 col-xs-12">
-                <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="1200ms">
-                    <div class="img-wrapper">
-                        <img src="images/portfolio/item-6.jpg" class="img-responsive" alt="" >
-                        <div class="overlay">
-                            <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-6.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <figcaption>
-                    <h4>
-                    <a href="#">
-                        Caramel Bottle
-                    </a>
-                    </h4>
-                    <p>
-                        Lorem ipsum dolor.
-                    </p>
-                    </figcaption>
-                </figure>
-            </div>
-        </div>
-    </div>
-</section> <!-- #works -->
-<!--
-==================================================
-Portfolio Section Start
-================================================== -->
-<section id="feature">
-    <div class="container">
-        <div class="section-heading">
-            <h1 class="title wow fadeInDown" data-wow-delay=".3s">Offer From Me</h1>
-            <p class="wow fadeInDown" data-wow-delay=".5s">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,<br> quasi dolores numquam dolor vero ex, tempora commodi repellendus quod laborum.
-            </p>
-        </div>
-        <div class="row">
-            <div class="col-md-4 col-lg-4 col-xs-12">
-                <div class="media wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <div class="media-left">
-                        <div class="icon">
-                            <i class="ion-ios-flask-outline"></i>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Media heading</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-4 col-xs-12">
-                <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="600ms">
-                    <div class="media-left">
-                        <div class="icon">
-                            <i class="ion-ios-lightbulb-outline"></i>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Well documented.</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-4 col-xs-12">
-                <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="900ms">
-                    <div class="media-left">
-                        <div class="icon">
-                            <i class="ion-ios-lightbulb-outline"></i>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Well documented.</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-4 col-xs-12">
-                <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1200ms">
-                    <div class="media-left">
-                        <div class="icon">
-                            <i class="ion-ios-americanfootball-outline"></i>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Free updates</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-4 col-xs-12">
-                <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1500ms">
-                    <div class="media-left">
-                        <div class="icon">
-                            <i class="ion-ios-keypad-outline"></i>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Solid Support</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-4 col-xs-12">
-                <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1800ms">
-                    <div class="media-left">
-                        <div class="icon">
-                            <i class="ion-ios-barcode-outline"></i>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Simple Installation</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> <!-- /#feature -->
+                </nav>
+                
 
+				<nav id="nav-dots" class="nav-dots visible-xs visible-sm hidden-md hidden-lg">
+					<span class="nav-dot-current"></span>
+					<span></span>
+					<span></span>
+				</nav>
 
-            <!--
-            ==================================================
-            Call To Action Section Start
-            ================================================== -->
-            <section id="call-to-action">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="block">
-                                <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">SO WHAT YOU THINK ?</h1>
-                                <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium.</p>
-                                <a href="contact.html" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">Contact With Me</a>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </section>
+			</div><!-- /slider-wrapper -->
+		</section>
+		
+        <!--
+        End Home SliderEnd
+        ==================================== -->
+			
+			<!-- about section -->
+			<section id="about" >
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 wow animated fadeInLeft">
+							<div class="recent-works">
+								<h3>Recent Works</h3>
+								<div id="works">
+									<div class="work-item">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> <br> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+									</div>
+									<div class="work-item">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br><br> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+									</div>
+									<div class="work-item">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br><br> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-7 col-md-offset-1 wow animated fadeInRight">
+							<div class="welcome-block">
+								<h3>Welcome To Our Site</h3>								
+						     	 <div class="message-body">
+									<img src="img/member-1.jpg" class="pull-left" alt="member">
+						       		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+						     	 </div>
+						       	<a href="#" class="btn btn-border btn-effect pull-right">Read More</a>
+						    </div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end about section -->
+			
+			
+			<!-- Service section -->
+			<section id="service">
+				<div class="container">
+					<div class="row">
+					
+						<div class="sec-title text-center">
+							<h2 class="wow animated bounceInLeft">Service</h2>
+							<p class="wow animated bounceInRight">The Key Features of our Job</p>
+						</div>
+						
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn">
+							<div class="service-item">
+								<div class="service-icon">
+									<i class="fa fa-home fa-3x"></i>
+								</div>
+								<h3>Support</h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+							</div>
+						</div>
+					
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
+							<div class="service-item">
+								<div class="service-icon">
+									<i class="fa fa-tasks fa-3x"></i>
+								</div>
+								<h3>Well Documented</h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+							</div>
+						</div>
+					
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
+							<div class="service-item">
+								<div class="service-icon">
+									<i class="fa fa-clock-o fa-3x"></i>
+								</div>
+								<h3>Design UI/UX</h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+							</div>
+						</div>
+					
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
+							<div class="service-item">
+								<div class="service-icon">
+									<i class="fa fa-heart fa-3x"></i>
+								</div>
+								
+								<h3>Web Security</h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>							
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</section>
+			<!-- end Service section -->
+			
+			<!-- portfolio section -->
+			<section id="portfolio">
+				<div class="container">
+					<div class="row">
+					
+						<div class="sec-title text-center wow animated fadeInDown">
+							<h2>FEATURED PROJECTS</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+						
 
-            <!--
-            ==================================================
-            Footer Section Start
-            ================================================== -->
-            <footer id="footer">
-                <div class="container">
-                    <div class="col-md-8">
-                        <p class="copyright">Copyright: <span><script>document.write(new Date().getFullYear())</script></span> Design and Developed by <a href="http://www.Themefisher.com" target="_blank">Themefisher</a>. <br> 
-                            Get More 
-                            <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">
-                                Free Bootstrap Templates
-                            </a>
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                        <!-- Social Media -->
-                        <ul class="social">
-                            <li>
-                                <a href="http://wwww.fb.com/themefisher" class="Facebook">
-                                    <i class="ion-social-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://wwww.twitter.com/themefisher" class="Twitter">
-                                    <i class="ion-social-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="Linkedin">
-                                    <i class="ion-social-linkedin"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://wwww.fb.com/themefisher" class="Google Plus">
-                                    <i class="ion-social-googleplus"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </footer> <!-- /#footer -->
-
-	<!-- Template Javascript Files
-	================================================== -->
-	<!-- jquery -->
-	<script src="plugins/jQurey/jquery.min.js"></script>
-	<!-- Form Validation -->
-    <script src="plugins/form-validation/jquery.form.js"></script> 
-    <script src="plugins/form-validation/jquery.validate.min.js"></script>
-	<!-- owl carouserl js -->
-	<script src="plugins/owl-carousel/owl.carousel.min.js"></script>
-	<!-- bootstrap js -->
-	<script src="plugins/bootstrap/bootstrap.min.js"></script>
-	<!-- wow js -->
-	<script src="plugins/wow-js/wow.min.js"></script>
-	<!-- slider js -->
-	<script src="plugins/slider/slider.js"></script>
-	<!-- Fancybox -->
-	<script src="plugins/facncybox/jquery.fancybox.js"></script>
-	<!-- template main js -->
-	<script src="js/main.js"></script>
- 	</body>
+						<ul class="project-wrapper wow animated fadeInUp">
+							<li class="portfolio-item">
+								<img src="img/portfolio/item.jpg" class="img-responsive" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat">
+								<figcaption class="mask">
+									<h3>Wall street</h3>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
+								</figcaption>
+								<ul class="external">
+									<li><a class="fancybox" title="Araund The world" data-fancybox-group="works" href="img/portfolio/item.jpg"><i class="fa fa-search"></i></a></li>
+									<li><a href=""><i class="fa fa-link"></i></a></li>
+								</ul>
+							</li>
+							
+							<li class="portfolio-item">
+								<img src="img/portfolio/item2.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+								<figcaption class="mask">
+									<h3>Wall street</h3>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
+								</figcaption>
+								<ul class="external">
+									<li><a class="fancybox" title="Wall street" href="img/slider/banner.jpg" data-fancybox-group="works" ><i class="fa fa-search"></i></a></li>
+									<li><a href=""><i class="fa fa-link"></i></a></li>
+								</ul>
+							</li>
+							
+							<li class="portfolio-item">
+								<img src="img/portfolio/item3.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+								<figcaption class="mask">
+									<h3>Wall street</h3>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
+								</figcaption>
+								<ul class="external">
+									<li><a class="fancybox" title="Behind The world" data-fancybox-group="works" href="img/portfolio/item3.jpg"><i class="fa fa-search"></i></a></li>
+									<li><a href=""><i class="fa fa-link"></i></a></li>
+								</ul>
+							</li>
+							
+							<li class="portfolio-item">
+								<img src="img/portfolio/item4.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry.">
+								<figcaption class="mask">
+									<h3>Wall street</h3>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
+								</figcaption>
+								<ul class="external">
+									<li><a class="fancybox" title="Wall street 4" data-fancybox-group="works" href="img/portfolio/item4.jpg"><i class="fa fa-search"></i></a></li>
+									<li><a href=""><i class="fa fa-link"></i></a></li>
+								</ul>
+							</li>
+							
+							<li class="portfolio-item">
+								<img src="img/portfolio/item5.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+								<figcaption class="mask">
+									<h3>Wall street</h3>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
+								</figcaption>
+								<ul class="external">
+									<li><a class="fancybox" title="Wall street 5" data-fancybox-group="works" href="img/portfolio/item5.jpg"><i class="fa fa-search"></i></a></li>
+									<li><a href=""><i class="fa fa-link"></i></a></li>
+								</ul>
+							</li>
+							
+							<li class="portfolio-item">
+								<img src="img/portfolio/item6.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+								<figcaption class="mask">
+									<h3>Wall street</h3>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
+								</figcaption>
+								<ul class="external">
+									<li><a class="fancybox" title="Wall street 6" data-fancybox-group="works" href="img/portfolio/item6.jpg"><i class="fa fa-search"></i></a></li>
+									<li><a href=""><i class="fa fa-link"></i></a></li>
+								</ul>
+							</li>
+						</ul>
+						
+					</div>
+				</div>
+			</section>
+			<!-- end portfolio section -->
+			
+			<!-- Testimonial section -->
+			<section id="testimonials" class="parallax">
+				<div class="overlay">
+					<div class="container">
+						<div class="row">
+						
+							<div class="sec-title text-center white wow animated fadeInDown">
+								<h2>What people say</h2>
+							</div>
+							
+							<div id="testimonial" class=" wow animated fadeInUp">
+								<div class="testimonial-item text-center">
+									<img src="img/member-1.jpg" alt="Our Clients">
+									<div class="clearfix">
+										<span>Katty Flower</span>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+									</div>
+								</div>
+								<div class="testimonial-item text-center">
+									<img src="img/member-1.jpg" alt="Our Clients">
+									<div class="clearfix">
+										<span>Katty Flower</span>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+									</div>
+								</div>
+								<div class="testimonial-item text-center">
+									<img src="img/member-1.jpg" alt="Our Clients">
+									<div class="clearfix">
+										<span>Katty Flower</span>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+									</div>
+								</div>
+							</div>
+						
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end Testimonial section -->
+			
+			<!-- Price section -->
+			<section id="price">
+				<div class="container">
+					<div class="row">
+					
+						<div class="sec-title text-center wow animated fadeInDown">
+							<h2>Price</h2>
+							<p>Our price for your company</p>
+						</div>
+						
+						<div class="col-md-4 wow animated fadeInUp">
+							<div class="price-table text-center">
+								<span>Silver</span>
+								<div class="value">
+									<span>$</span>
+									<span>24,35</span><br>
+									<span>month</span>
+								</div>
+								<ul>
+									<li>No Bonus Points</li>
+									<li>No Bonus Points</li>
+									<li>No Bonus Points</li>
+									<li>No Bonus Points</li>
+									<li><a href="#">sign up</a></li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-md-4 wow animated fadeInUp" data-wow-delay="0.4s">
+							<div class="price-table featured text-center">
+								<span>Gold</span>
+								<div class="value">
+									<span>$</span>
+									<span>50,00</span><br>
+									<span>month</span>
+								</div>
+								<ul>
+									<li>Free Trial</li>
+									<li>Free Trial</li>
+									<li>Free Trial</li>
+									<li>Free Trial</li>
+									<li><a href="#">sign up</a></li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-md-4 wow animated fadeInUp" data-wow-delay="0.8s">
+							<div class="price-table text-center">
+								<span>Diamond</span>
+								<div class="value">
+									<span>$</span>
+									<span>123,12</span><br>
+									<span>month</span>
+								</div>
+								<ul>
+									<li>All Bonus Points</li>
+									<li>All Bonus Points</li>
+									<li>All Bonus Points</li>
+									<li>All Bonus Points</li>
+									<li><a href="#">sign up</a></li>
+								</ul>
+							</div>
+						</div>
+		
+					</div>
+				</div>
+			</section>
+			<!-- end Price section -->
+			
+			<!-- Social section -->
+			<section id="social" class="parallax">
+				<div class="overlay">
+					<div class="container">
+						<div class="row">
+						
+							<div class="sec-title text-center white wow animated fadeInDown">
+								<h2>FOLLOW US</h2>
+								<p>Beautifully simple follow buttons to help you get followers on</p>
+							</div>
+							
+							<ul class="social-button">
+								<li class="wow animated zoomIn"><a href="#"><i class="fa fa-thumbs-up fa-2x"></i></a></li>
+								<li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+								<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="#"><i class="fa fa-dribbble fa-2x"></i></a></li>							
+							</ul>
+							
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end Social section -->
+			
+			<!-- Contact section -->
+			<section id="contact" >
+				<div class="container">
+					<div class="row">
+						
+						<div class="sec-title text-center wow animated fadeInDown">
+							<h2>Contact</h2>
+							<p>Leave a Message</p>
+						</div>
+						
+						
+						<div class="col-md-7 contact-form wow animated fadeInLeft">
+							<form action="#" method="post">
+								<div class="input-field">
+									<input type="text" name="name" class="form-control" placeholder="Your Name...">
+								</div>
+								<div class="input-field">
+									<input type="email" name="email" class="form-control" placeholder="Your Email...">
+								</div>
+								<div class="input-field">
+									<input type="text" name="subject" class="form-control" placeholder="Subject...">
+								</div>
+								<div class="input-field">
+									<textarea name="message" class="form-control" placeholder="Messages..."></textarea>
+								</div>
+						       	<button type="submit" id="submit" class="btn btn-blue btn-effect">Send</button>
+							</form>
+						</div>
+						
+						<div class="col-md-5 wow animated fadeInRight">
+							<address class="contact-details">
+								<h3>Contact Us</h3>						
+								<p><i class="fa fa-pencil"></i>Phoenix Inc.<span>PO Box 345678</span> <span>Little Lonsdale St, Melbourne </span><span>Australia</span></p><br>
+								<p><i class="fa fa-phone"></i>Phone: (415) 124-5678 </p>
+								<p><i class="fa fa-envelope"></i>website@yourname.com</p>
+							</address>
+						</div>
+			
+					</div>
+				</div>
+			</section>
+			<!-- end Contact section -->
+			
+			<section id="google-map">
+				<div id="map-canvas" class="wow animated fadeInUp"></div>
+			</section>
+		
+		</main>
+		
+		<footer id="footer">
+			<div class="container">
+				<div class="row text-center">
+					<div class="footer-content">
+						<div class="wow animated fadeInDown">
+							<p>newsletter signup</p>
+							<p>Get Cool Stuff! We hate spam!</p>
+						</div>
+						<form action="#" method="post" class="subscribe-form wow animated fadeInUp">
+							<div class="input-field">
+								<input type="email" class="subscribe form-control" placeholder="Enter Your Email...">
+								<button type="submit" class="submit-icon">
+									<i class="fa fa-paper-plane fa-lg"></i>
+								</button>
+							</div>
+						</form>
+						<div class="footer-social">
+							<ul>
+								<li class="wow animated zoomIn"><a href="#"><i class="fa fa-thumbs-up fa-3x"></i></a></li>
+								<li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="#"><i class="fa fa-twitter fa-3x"></i></a></li>
+								<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="#"><i class="fa fa-skype fa-3x"></i></a></li>
+								<li class="wow animated zoomIn" data-wow-delay="0.9s"><a href="#"><i class="fa fa-dribbble fa-3x"></i></a></li>
+								<li class="wow animated zoomIn" data-wow-delay="1.2s"><a href="#"><i class="fa fa-youtube fa-3x"></i></a></li>
+							</ul>
+						</div>
+						
+						<p>Copyright &copy; 2014-2015 Design and Developed By<a href="http://www.themefisher.com">Themefisher</a> </p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<!-- Essential jQuery Plugins
+		================================================== -->
+		<!-- Main jQuery -->
+        <script src="js/jquery-1.11.1.min.js"></script>
+		<!-- Twitter Bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+		<!-- Single Page Nav -->
+        <script src="js/jquery.singlePageNav.min.js"></script>
+		<!-- jquery.fancybox.pack -->
+        <script src="js/jquery.fancybox.pack.js"></script>
+		<!-- Google Map API -->
+		<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		<!-- Owl Carousel -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- jquery easing -->
+        <script src="js/jquery.easing.min.js"></script>
+        <!-- Fullscreen slider -->
+        <script src="js/jquery.slitslider.js"></script>
+        <script src="js/jquery.ba-cond.min.js"></script>
+		<!-- onscroll animation -->
+        <script src="js/wow.min.js"></script>
+		<!-- Custom Functions -->
+        <script src="js/main.js"></script>
+    </body>
 </html>
