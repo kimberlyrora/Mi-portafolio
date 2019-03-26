@@ -155,7 +155,7 @@
 }
 
 .bg-img-1 {
-	background-image: url(../img/slider/banner.jpg);
+	background-image: url(../img/gih.gif);
 }
 .bg-img-2 {
 	background-image: url(../img/slider/affinity.jpeg);
@@ -163,8 +163,11 @@
 .bg-img-3 {
 	background-image: url(../img/slider/cinelli.jpeg);
 }
-
-
+.caption-content{
+	background-color: 
+	/* rgb(232,127,77, .8); */
+	/* rgba(234, 237, 237, 0.5) */
+}
 /* Animations for content elements */
 
 .sl-trans-elems .caption-content h2 {

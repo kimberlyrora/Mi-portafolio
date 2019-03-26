@@ -16,7 +16,7 @@
 
 body {
     background-color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     line-height: 24px;
     font-size: 16px;
     color: #818181;
@@ -49,7 +49,7 @@ a, a:hover, a:focus, .btn:focus {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #252525;
 }
 
@@ -277,7 +277,12 @@ main > section {
          -o-transition: all 0.8s ease 0s;
             transition: all 0.8s ease 0s;
 
-    background-color: rgba(0,0,0,.4);
+    background-color:
+    /* rgb(219,50,97, .8); */
+    rgb(207,162,242, .)
+    /* rgb(16,130,146,.8); */
+     /* rgb(93,108,172,.9); */
+
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     padding: 5px 0;
 }
@@ -528,7 +533,7 @@ h1.navbar-brand {
     border: 3px solid #fff;
     border-radius: 50%;
     margin-right: 35px;
-    max-width: 100px;
+    /* max-width: 100px; */
 }
 
 #about .message-body {
@@ -758,7 +763,7 @@ ul.external li a:hover {
 }
 
 .testimonial-item > div:before {
-    background-image: url("../img/icons/quotes.png");
+    /* background-image: url("../img/icons/quotes.png"); */
     background-repeat: no-repeat;
     bottom: 127px;
     height: 33px;
