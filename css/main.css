@@ -1230,11 +1230,8 @@ ul.external li a:hover {
     .price-table {
         margin-bottom: 50px;
     }
+}}
 
-    .pro{
-        width: 100%;
-        height: 150vh;
-        background-image: "img/dilemma.png"
-    }
-}
+.hey{
+    width: 150px
 }
