@@ -65,10 +65,14 @@ main > section {
 }
 
 .btn-blue {
-    background-color: rgba(0,158,227, 0.78);
+    background-color:    rgb(219,50,97, .95);
     box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
     padding: 15px 55px;
     color: #fff;
+    text-shadow:
+    -.5px -.5px 0 , 
+    .5px -.5px 0 , 
+    -.5px .5px 0 ;
 }
 
 .btn-border {
@@ -278,11 +282,7 @@ main > section {
             transition: all 0.8s ease 0s;
 
     background-color:
-    /* rgb(219,50,97, .8); */
-    rgb(207,162,242, .)
-    /* rgb(16,130,146,.8); */
-     /* rgb(93,108,172,.9); */
-
+    rgb(219,50,97, .8);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     padding: 5px 0;
 }
@@ -1055,10 +1055,13 @@ ul.external li a:hover {
     .sec-title h2:after {
         left: 30%;
     }
-
+.imagen-logo{
+    margin-left: 15px;
+}
 /*navigation*/
     .navbar-inverse .navbar-toggle {
         border-color: #fff;
+        margin-top: 25px;
     }
 
     .navbar-inverse .navbar-toggle:hover,

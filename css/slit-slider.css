@@ -165,8 +165,8 @@
 }
 .caption-content{
 	background-color: 
-	/* rgb(232,127,77, .8); */
-	/* rgba(234, 237, 237, 0.5) */
+	rgb(232,127,77,.3)
+	/* rgba(234, 237, 237, 0.28) */
 }
 /* Animations for content elements */
 
