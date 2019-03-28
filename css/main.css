@@ -19,7 +19,7 @@ body {
     font-family: 'Raleway', sans-serif;
     line-height: 24px;
     font-size: 16px;
-    color: #818181;
+    color: #646262;
 }
 
 figure, p, address {
@@ -28,6 +28,7 @@ figure, p, address {
 
 p {
     line-height: 25px;
+    font-weight: 500;
 }
 
 iframe {
@@ -56,7 +57,12 @@ h1, h2, h3, h4, h5, h6,
 main > section {
     padding: 70px 0;
 }
+.about-me{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 25px;
 
+}
 .btn {
     border-radius: 0;
     border: 0;
@@ -536,7 +542,7 @@ h1.navbar-brand {
 }
 
 #about .message-body {
-    font-size: 13px;
+    font-size: 18px;
     line-height: 20px;
     margin-bottom: 70px;
 }
@@ -1046,7 +1052,7 @@ ul.external li a:hover {
 @media only screen and (max-width: 767px) {
 
     body {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .parallax {
