@@ -544,7 +544,8 @@ h1.navbar-brand {
 #about .message-body {
     font-size: 18px;
     line-height: 20px;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .owl-buttons {
